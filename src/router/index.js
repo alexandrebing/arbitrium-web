@@ -13,11 +13,11 @@ Vue.use(Router)
 if (process.env.API_SERVER)
   var apiServer = process.env.API_SERVER
 else
-  var apiServer = 'https://aqueous-brushlands-76849.herokuapp.com'
+  var apiServer = 'https://alexandrebing.com.br/arbitrium-api'
 
 export default new Router({
   mode: 'history',
-  base: 'arbitrium',
+  base: 'arbitrium-web',
   routes: [
     {
       path: '/',

@@ -43,7 +43,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/arbitrium',
+    assetsPublicPath: '/arbitrium-web',
 
     /**
      * Source Maps
